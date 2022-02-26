@@ -1,4 +1,4 @@
-Welcome to c++ & media's documentation!
+Welcome to c++'s place!
 ===================================
 
 Contents
@@ -6,6 +6,4 @@ Contents
 
 .. toctree::
 
-   media
-   books
-   python
+   makefile and autotools

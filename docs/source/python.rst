@@ -1,4 +1,4 @@
-Welcome to c++ & media's documentation!
+Welcome to python's place!
 ===================================
 
 Contents
