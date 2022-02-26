@@ -1,11 +1,7 @@
-Welcome to python's place!
+python
 ===================================
 
-Contents
---------
+
 
 .. toctree::
 
-   media
-   books
-   python

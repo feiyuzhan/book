@@ -1,7 +1,6 @@
-Welcome to c++'s place!
+c++
 ===================================
 
-Contents
 c++ learning space
 
 .. toctree::
