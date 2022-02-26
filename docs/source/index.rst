@@ -1,8 +1,6 @@
 Welcome to c++ & media's documentation!
 ===================================
 
-Contents
---------
 
 .. toctree::
    
