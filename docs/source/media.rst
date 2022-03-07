@@ -4,5 +4,4 @@ media
 
 
 .. toctree::
-
-ffmpeg
+    ffmpeg
