@@ -17,6 +17,7 @@ gcc
 =============
 .. code-block:: 
     g++ -I /usr/local/ffmpeg/include delete_file.cpp -L /usr/local/ffmpeg/lib -lavformat -o delete_file.o
+    g++ -I /usr/local/ffmpeg/include ffmpeg_list_dir.cpp -L /usr/local/ffmpeg/lib -lavformat -lavutil -o ffmpeg_list_dir.o
 
 
 =============
@@ -39,12 +40,20 @@ file delete and rename (api : http://www.ffmpeg.org/doxygen/4.1/avio_8h.html)
 
 
 =============
-dir
+list_dir
 =============
 .. code-block:: c
     avio_open_dir()
     avio_open_dir()
     avio_open_dir()
+
+
+struct:
+.. code-block::c
+    AVIODirContext : context
+    AVIODirEntry : entry 
+
+    
 
 
 
