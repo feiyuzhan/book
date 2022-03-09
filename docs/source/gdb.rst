@@ -1,6 +1,8 @@
 gdb
 ===================================
 
+commands:
+
 1. gcc -g test.c -o test.out
 2. gdb ./test.out
 3. b(breakpoint) home/xxx/test.c:13
