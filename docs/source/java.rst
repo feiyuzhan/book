@@ -1,4 +1,6 @@
 
+java
+===============
 
 Hibernate Validator 7.0.4.Final
 
@@ -18,7 +20,6 @@ annotations are used to declare the constraints, e.g : @NotNull, @Size, annotati
 
 
 
+ref:
 
-ref
-************
 https://docs.jboss.org/hibernate/stable/validator/reference/en-US/html_single/#validator-gettingstarted
