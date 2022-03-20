@@ -6,3 +6,4 @@ Welcome to c++ & media's documentation!
    cpp
    media
    python
+   java

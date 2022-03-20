@@ -43,7 +43,7 @@ file option ::
 
 
 
-list_dir
+list dir
 =============
 
 list dir ::
@@ -53,7 +53,7 @@ list dir ::
 
 
 
-read dic api:
+read dic api
 =============
 
 
@@ -74,12 +74,12 @@ each stream is made by serverl packet and there is one or more frame in each pac
 * AVPacket 
 
 
-Basic Steps:
+Basic Steps
 =============
 demux(解复用) -> get streams -> read packets -> release resources
 
 
-get meta data of audio and video:
+get meta data of audio and video
 ==============
 
 apis :: 
@@ -108,6 +108,19 @@ output::
         handler_name    : ISO Media file produced by Google Inc.
         vendor_id       : [0][0][0][0]
 
+
+
+get audio info
+============
+
+api:    
+av_init_packet()
+av_find_best_stream()
+av_read_frame() / av_packet_unref()
+
+
+get video info
+=============
 
 
 
